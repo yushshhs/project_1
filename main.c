@@ -13,7 +13,7 @@ int main()
 
     do
     {
-        printf("Guess the number");
+        printf("Guess the number:");
         scanf("%d", &guessed_number);
         
         if(guessed_number>randomNumber){
